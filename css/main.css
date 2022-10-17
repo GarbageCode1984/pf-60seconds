@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+img {
+  max-width: 100%;
+}
+
+/*이미지의 원래 사이즈 보다 커지진 않음*/
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans KR', '맑은 고딕', sans-serif;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row>* {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+header {
+  background: url('../img/main.jpg') no-repeat center center / cover;
+  padding: 150px 0 110px;
+}
+
+.h1 {
+  width: 90px;
+}
+
+.util {
+  margin-top: 15px;
+}
+
+.util li {
+  margin-left: 20px;
+}
+
+.util a {
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-item:first-child {
+  margin-right: 20px;
+}
+
+.nav-item>a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+.m_info {
+  padding: 50px 0 30px;
+  font-size: 18px;
+}
+
+.m_info span {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.main_text {
+  margin: 0 0 0 10vw;
+}
+
+.main_text h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.main_text span {
+  font-size: 12px;
+}
+
+/* section */
+section {
+  padding: 70px 0 80px;
+}
+
+.section_title {
+  padding: 15px;
+}
+
+.section_title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.section_title img {
+  width: 50px;
+  height: 50px;
+}
+
+.section_thumbnail {
+  padding: 15px;
+}
+
+.section_thumbnail a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+.section_thumbnail a:hover {
+  color: inherit;
+}
+
+.section_thumbnail p {
+  margin: 15px 0 0 0;
+  font-size: 1.05em;
+}
+
+.section_thumbnail span {
+  font-family: 'Noto Sans KR', '맑은 고딕', sans-serif;
+  font-weight: 300;
+  margin-left: 10px;
+  color: 666
+}
+
+
+.section2 {
+  background: #f8f9fa;
+  height: 80vh;
+  padding: 0;
+}
+
+.section_bg {
+  width: 100%;
+  height: 100%;
+  background: url('../img/index_20220930_benefit.jpg') no-repeat top center / 100% auto;
+}
+
+.section2 .section_title {
+  color: #fff;
+  padding-top: 70px;
+}
+
+.section3 {
+  background: #f0f0f0;
+}
+
+.section3 .section_thumbnail {}
+
+.section3 .section_thumbnail a {
+  display: block;
+}
+
+.section_text_wrap {
+  background: #fff;
+  padding: 30px;
+}
+
+.section_text_desc {
+  color: #666;
+  font-size: 1.05em;
+}
+
+.section_text_writer {
+  color: #999;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.section4 {}
+
+.store_info_wrap {}
+
+.store_info_wrap h3 {}
+
+.store_info_wrap p {
+  color: #333;
+}
+
+.store_info {}
+
+.store_info li {
+  font-size: 14px;
+}
+
+.store_info title {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  color: #333;
+};
